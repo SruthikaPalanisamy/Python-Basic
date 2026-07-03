@@ -1,8 +1,8 @@
-text = input("Enter a string: ")
+s = input("Enter a string: ")
 
 count = 0
 
-for ch in text.lower():
+for ch in s.lower():
     if ch in "aeiou":
         count += 1
 
