@@ -1,0 +1,22 @@
+student = {
+    "name": "Sruthika",
+    "age": 22,
+    "grade": "B",
+    "subject": "Python"
+}
+
+print("Student Details")
+
+for key, value in student.items():
+    print(key, ":", value)
+
+# Update grade
+student["grade"] = "A"
+
+# Add new key
+student["passed"] = True
+
+print("\nUpdated Details")
+
+for key, value in student.items():
+    print(key, ":", value)

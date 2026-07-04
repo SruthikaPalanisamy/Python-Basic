@@ -1,0 +1,22 @@
+movies = ["Leo", "Interstellar", "3 Idiots", "Vikram", "Kantara"]
+
+print("Original List:")
+print(movies)
+
+# Add a new movie
+movies.append("Avatar")
+
+print("\nAfter Adding:")
+print(movies)
+
+# Remove the 2nd movie
+movies.pop()
+
+print("\nAfter Removing 2nd Movie:")
+print(movies)
+
+# Sort alphabetically
+movies.sort()
+
+print("\nSorted List:")
+print(movies)

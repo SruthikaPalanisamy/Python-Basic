@@ -1,0 +1,15 @@
+sentence = "python is easy and python is powerful"
+
+words = sentence.split()
+
+print("Words:")
+print(words)
+
+unique_words = set(words)
+
+print("\nUnique Words:")
+print(unique_words)
+
+duplicates = len(words) - len(unique_words)
+
+print("\nDuplicates Removed:", duplicates)
