@@ -1,0 +1,22 @@
+
+items = [
+    ("Laptop", 60000),
+    ("Mobile", 25000),
+    ("Headphones", 2000),
+    ("Keyboard", 1500),
+    ("Monitor", 12000)
+]
+
+print("Items and Prices")
+
+for item, price in items:
+    print(item, ":", price)
+
+most_expensive = max(items, key=lambda x: x[1])
+cheapest = min(items, key=lambda x: x[1])
+
+print("\nMost Expensive:")
+print(most_expensive)
+
+print("\nCheapest:")
+print(cheapest)
