@@ -1,0 +1,2 @@
+file1.txt -> 5 words
+file2.txt -> 6 words
